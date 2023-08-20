@@ -4,6 +4,7 @@ const router = express.Router();
 
 router.post("/CreatePost", CreatePost);
 router.get("/ReadPost",ReadPost);
+router.get("/ReadPostById/:id",ReadPostById);
 router.post("/UpdatePost/:id",UpdatePost);
 router.post("/DeletePost/:id",DeletePost)
 
